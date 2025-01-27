@@ -57,9 +57,11 @@ The `onlyOwner` modifier ensures that only the contract's owner can call the fun
 2. **Increment the Counter**: The owner can increment the counter.
 
 counterContract.increment_counter();
+
 3. **Decrement the Counter:** The owner can decrement the counter.
 
 counterContract.decrement_counter();
+
 4. **Get the Counter Value:** Anyone can query the current value of the counter.
 
 uint currentValue = counterContract.get_counter_value();
